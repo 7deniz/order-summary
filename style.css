@@ -8,6 +8,7 @@ html {
 }
 body {
   background-image: url("./images/pattern-background-desktop.svg");
+  height: 17em;
   background-repeat: no-repeat;
   background-color: #e0e8ff;
 }
@@ -22,7 +23,7 @@ main {
   /* border: 2px solid #fff; */
   /* text-align: center; */
   justify-content: center;
-  width: 25%;
+  max-width: 40rem;
   border-radius: 2rem;
 }
 .img-music {
@@ -41,6 +42,7 @@ h1 {
   background-color: #fff;
   margin: 2rem;
   padding: 1.5rem;
+  max-width: 40rem;
 }
 .text-first {
   font-size: 1.6rem;
@@ -70,10 +72,10 @@ h1 {
 .button-payment {
   background-color: #3829e0;
   color: #fff;
-  padding: 1rem;
-  margin-left: 5rem;
+  height: 3rem;
+  margin-left: 2rem;
   margin-bottom: 1rem;
-  width: 25rem;
+  width: 90%;
   text-align: center;
   justify-content: center;
   border-radius: 1rem;
@@ -91,17 +93,8 @@ h1 {
   margin-top: 2rem;
 }
 
-@media (max-width: 78.75em) {
-  .button-payment {
-    /* margin-left: 3rem; */
-    width: 20rem;
-  }
-}
-@media (max-width: 68.75em) {
-  .img-music {
-    width: 90%;
-  }
+@media (max-width: 375px) {
   main {
-    width: 23%;
+    max-width: 28rem;
   }
 }
