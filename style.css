@@ -82,7 +82,11 @@ h1 {
 .button-cancel {
   color: #7280a7;
   text-decoration: none;
+<<<<<<< HEAD
   margin-left: 15rem;
+=======
+  margin-left: 12rem;
+>>>>>>> e38236bcf1eaaedadb9a396533668da668bce38f
   padding-bottom: 1rem;
   text-align: center;
   justify-content: center;
